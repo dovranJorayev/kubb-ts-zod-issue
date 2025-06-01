@@ -3,7 +3,7 @@
  * Do not edit manually.
  */
 
-import type { PaymentItem } from "./payment-item";
+import type { PaymentItem } from "./PaymentItem";
 
 export type PaymentHistoryResponse = {
   /**

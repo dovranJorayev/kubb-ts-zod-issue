@@ -1,9 +1,5 @@
-export type { CheckSubscriptionResponse } from "./check-subscription-response";
-export type { ErrorResponse } from "./error-response";
-export type { PaginationData } from "./pagination-data";
-export type { PaymentHistoryResponse } from "./payment-history-response";
-export type { PaymentItem } from "./payment-item";
-export type { SubscriptionItem } from "./subscription-item";
+export type { CheckSubscriptionResponse } from "./CheckSubscriptionResponse";
+export type { ErrorResponse } from "./ErrorResponse";
 export type {
   GetV1UsersCheckSubscriptionQueryParams,
   GetV1UsersCheckSubscription200,
@@ -13,7 +9,7 @@ export type {
   GetV1UsersCheckSubscription500,
   GetV1UsersCheckSubscriptionQueryResponse,
   GetV1UsersCheckSubscriptionQuery,
-} from "./users/get-v1-users-check-subscription";
+} from "./GetV1UsersCheckSubscription";
 export type {
   GetV1UsersUseridPaymentHistoryPathParams,
   GetV1UsersUseridPaymentHistoryQueryParams,
@@ -25,4 +21,8 @@ export type {
   GetV1UsersUseridPaymentHistory500,
   GetV1UsersUseridPaymentHistoryQueryResponse,
   GetV1UsersUseridPaymentHistoryQuery,
-} from "./users/get-v1-users-userid-payment-history";
+} from "./GetV1UsersUseridPaymentHistory";
+export type { PaginationData } from "./PaginationData";
+export type { PaymentHistoryResponse } from "./PaymentHistoryResponse";
+export type { PaymentItem } from "./PaymentItem";
+export type { SubscriptionItem } from "./SubscriptionItem";

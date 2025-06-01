@@ -3,8 +3,8 @@
  * Do not edit manually.
  */
 
-import type { PaginationData } from "./pagination-data";
-import type { SubscriptionItem } from "./subscription-item";
+import type { PaginationData } from "./PaginationData";
+import type { SubscriptionItem } from "./SubscriptionItem";
 
 export type CheckSubscriptionResponse = {
   /**

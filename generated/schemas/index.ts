@@ -1,9 +1,5 @@
-export { checkSubscriptionResponseSchema } from "./check-subscription-response-schema";
-export { errorResponseSchema } from "./error-response-schema";
-export { paginationDataSchema } from "./pagination-data-schema";
-export { paymentHistoryResponseSchema } from "./payment-history-response-schema";
-export { paymentItemSchema } from "./payment-item-schema";
-export { subscriptionItemSchema } from "./subscription-item-schema";
+export { checkSubscriptionResponseSchema } from "./checkSubscriptionResponseSchema";
+export { errorResponseSchema } from "./errorResponseSchema";
 export {
   getV1UsersCheckSubscriptionQueryParamsSchema,
   getV1UsersCheckSubscription200Schema,
@@ -12,7 +8,7 @@ export {
   getV1UsersCheckSubscription403Schema,
   getV1UsersCheckSubscription500Schema,
   getV1UsersCheckSubscriptionQueryResponseSchema,
-} from "./users/get-v1-users-check-subscription-schema";
+} from "./getV1UsersCheckSubscriptionSchema";
 export {
   getV1UsersUseridPaymentHistoryPathParamsSchema,
   getV1UsersUseridPaymentHistoryQueryParamsSchema,
@@ -23,4 +19,8 @@ export {
   getV1UsersUseridPaymentHistory404Schema,
   getV1UsersUseridPaymentHistory500Schema,
   getV1UsersUseridPaymentHistoryQueryResponseSchema,
-} from "./users/get-v1-users-userid-payment-history-schema";
+} from "./getV1UsersUseridPaymentHistorySchema";
+export { paginationDataSchema } from "./paginationDataSchema";
+export { paymentHistoryResponseSchema } from "./paymentHistoryResponseSchema";
+export { paymentItemSchema } from "./paymentItemSchema";
+export { subscriptionItemSchema } from "./subscriptionItemSchema";

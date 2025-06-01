@@ -3,7 +3,7 @@
  * Do not edit manually.
  */
 
-import { paymentItemSchema } from "./payment-item-schema";
+import { paymentItemSchema } from "./paymentItemSchema";
 import { z } from "zod";
 
 export const paymentHistoryResponseSchema = z.object({

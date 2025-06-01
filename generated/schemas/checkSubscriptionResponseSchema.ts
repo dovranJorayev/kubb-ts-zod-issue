@@ -3,8 +3,8 @@
  * Do not edit manually.
  */
 
-import { paginationDataSchema } from "./pagination-data-schema";
-import { subscriptionItemSchema } from "./subscription-item-schema";
+import { paginationDataSchema } from "./paginationDataSchema";
+import { subscriptionItemSchema } from "./subscriptionItemSchema";
 import { z } from "zod";
 
 export const checkSubscriptionResponseSchema = z
