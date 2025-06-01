@@ -1,0 +1,1 @@
+{"type":"object","required":["items"],"properties":{"items":{"type":"array","items":{"type":"object","required":["id","duration","state","userId"],"properties":{"id":{"type":"integer"},"duration":{"type":"string"},"state":{"type":"integer"},"userId":{"type":"integer"}},"x-readme-ref-name":"PaymentItem"},"nullable":true}},"x-readme-ref-name":"PaymentHistoryResponse"}
